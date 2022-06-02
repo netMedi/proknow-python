@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="proknow",
+    name="proknow-python",
     version="0.19.0",
     author="ProKnow",
-    author_email="support@proknow.com",
+ #   author_email="support@proknow.com",
     description="Python library for the ProKnow API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
